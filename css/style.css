@@ -29,6 +29,7 @@ header{
     position: absolute;
     top: .5vw;
     right: .5vh;
+    z-index: 2;
 }
 
 div.view{
@@ -46,7 +47,7 @@ div.view i{
 
 div.view,
 div.fullscreen{
-    background-color: rgba(83, 83, 83, 0.767);
+    background-color: #4a4a4a;
     padding: .3rem;
     border-radius: .5rem;
 }
@@ -62,15 +63,29 @@ div.container{
     width: 100vw;
     height: 85vh;
 
-    background-color: aqua;
-
     flex-wrap: wrap;
 }
 
 div.cam-box{
-    width: 160px;
+    width: 170px;
     height: 90px;
 
     background-color: blue;
-    margin: .5rem .5rem;
+    margin: .3rem .1rem;
+
+    background-image: url(https://picsum.photos/700/500);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+div.name-mic{
+    width: 95px;
+    font-size: .85rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.295);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
