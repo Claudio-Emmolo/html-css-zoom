@@ -138,3 +138,12 @@ span.icon{
 div.open-settings-icon i{
     margin-left: .5rem;
 }
+
+/* ICON RIGHT */
+
+div.close-call{
+    color: red;
+    background-color: #4a4a4a;
+    width: 30%;
+    height: 100%;
+}
