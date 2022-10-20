@@ -96,17 +96,24 @@ footer{
     height: 70px;
     background-color: #222222;
     color: white;
+    font-size: .8rem;
 }
+
 
 div.center{
     width: 50%;
     height: 100%;
-    border: 2px solid blue;
 }
 
 div.icon-txt-bottom{
     margin-left: 1.5rem;
+    cursor: pointer;
 }
+
+div.icon-txt-bottom:hover{
+    color: rgb(168, 168, 168);
+}
+
 
 div.left,
 div.right{
@@ -140,10 +147,21 @@ div.open-settings-icon i{
 }
 
 /* ICON RIGHT */
+.green-icon{
+    color: green
+}
 
 div.close-call{
     color: red;
     background-color: #4a4a4a;
+    width: 30%;
+    height: 100%;
+    cursor: pointer;
+}
+
+div.close-call:hover{
+    background-color: red;
+    color: #000000;
     width: 30%;
     height: 100%;
 }
