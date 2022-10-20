@@ -9,3 +9,39 @@
 body{
     font-family: 'Cabin', sans-serif;
 }
+
+.absolute-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -53%);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* -------MAIN------- */
+main{
+    height: 100vh;
+    background-color: black;
+}
+
+div.container{
+    width: 85vw;
+    height: 85vh;
+
+    background-color: aqua;
+
+    flex-wrap: wrap;
+}
+
+div.cam-box{
+    width: calc((100% / 7) - 1rem);
+    height: 15vh;
+
+    background-color: blue;
+    margin: 0 .5rem;
+}
