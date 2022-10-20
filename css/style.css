@@ -27,29 +27,23 @@ body{
 header{
     color: white;
     position: absolute;
-    top: .5vw;
+    top: .3vw;
     right: .5vh;
     z-index: 2;
-}
 
-div.view{
-    margin-right: 1rem;
-}
-
-div.view span{
     font-size: .7rem;
 }
 
 div.view i{
-    vertical-align: middle;
     margin-right: .2rem;
 }
 
 div.view,
 div.fullscreen{
+    margin: 0 .1rem 0 .8rem; 
     background-color: #4a4a4a;
     padding: .3rem;
-    border-radius: .5rem;
+    border-radius: .3rem;
 }
 
 
